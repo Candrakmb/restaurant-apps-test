@@ -1,0 +1,54 @@
+{
+  "icons": [
+    {
+      "src": "icon_144x144.d2c1b5ee4b622496450da5b1b4bf59cf.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon_512x512.52ed99c2d579db4e63fef74d7d3dddb5.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_384x384.8ab643cc5b45a3e895f06b1e93e62058.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_256x256.b625862106fa4b3f6f93a56e8f042017.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_192x192.7933fd5f03c5c0af4b10f85335210468.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_128x128.fd285775e5dca4ae1c5105869ebe4ed9.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon_96x96.7351e2037056931fb654ce98e00fb4c3.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "name": "restoku Restaurants Catalogue",
+  "short_name": "restoku",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/index.html",
+  "description": "Platform to show best restaurant in the world",
+  "theme_color": "#F7C531",
+  "background_color": "#ffffff"
+}

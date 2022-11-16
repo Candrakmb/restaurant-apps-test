@@ -1,0 +1,132 @@
+// Title-content
+.info__content {
+    text-align: center;
+    margin: 0 auto;
+    padding: 32px;
+    .title__content {
+        position: relative;
+        display: inline-block;
+        color: rgba(0,0,0,.9);
+        font-size: 27px;
+        margin-top: 50px;
+        font-weight: 600;
+    }
+}
+.favorire-title {
+    text-align: center;
+    margin: 0 auto;
+    padding: 32px;
+    .title__content {
+        position: relative;
+        display: inline-block;
+        color: rgba(0,0,0,.9);
+        font-size: 27px;
+        margin-top: 30px;
+        font-weight: 600;
+    }
+}
+
+// List-restaurant
+.restaurant {
+    margin: 20px 0;
+    padding: 0 20px;
+    
+}
+.list__resto, #favoriteContainer {
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.resto__item {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 10px 20px 0;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 10px;
+    position: relative;
+    border-radius: 10px;
+    .img {
+        width: 300px;
+        height: 200px;
+    }
+    .title__resto {
+        text-align: center;
+        a {
+            display: block;
+            font-size: 20px;
+            color: $primary-text;
+            text-decoration: none;
+            min-width: 44px;
+            min-height: 44px;
+            padding-top: 13px;
+            &:hover {
+                color: $reddark;
+            }
+        }
+    }
+    .description {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4; /* number of lines to show */
+        -webkit-box-orient: vertical;
+        padding: 0px 16px 0px 20px;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .location {
+        display: flex;
+        padding: 2px 0 5px 20px;
+        .marker {
+            width: 18px;
+            height: 18px;
+            margin-right: 5px;
+            filter: invert(69%) sepia(67%) saturate(464%) hue-rotate(3deg) brightness(93%) contrast(86%);
+        }
+    }
+    .rating__resto {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        background-color: rgb(214, 50, 50);
+    }
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    }
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .fa-facebook:hover {
+    color: #0d4870;
+  }
+  
+  .fa-instagram:hover {
+    color: #e11d74;
+  }
+  
+  .fa-twitter:hover {
+    color: #00adb5;
+  }
+  
+  .container>.icon_item>p {
+    margin-top: 7px;
+  }
+  
+  .container>.icon_item a {
+    width: 100%;
+    height: 100%;
+    padding:20px;
+    color: #999;
+    margin-bottom: 10px;
+  }

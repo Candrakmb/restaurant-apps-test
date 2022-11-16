@@ -1,0 +1,115 @@
+// Detail-content
+.detail-content {
+    padding: 3% 7%;
+    .detail-header {
+        display: grid;
+        row-gap: 30px;
+        .image-resto {
+            img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 4%;
+            }
+        }
+        .branding {
+            // margin-left: 4%;
+            h1 {
+                color: $primary-text;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: 20px;
+                margin-top: 16px;
+                .star, .road, .marker {
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+            .line-border {
+                margin: 30px 0;
+                width: 100%;
+                height: 4px;
+                background-color: $secondary-text;
+            }
+            .categories {
+                margin-top: 20px;
+                .btn-category {
+                    margin: 10px 0;
+                    padding: 10px 15px;
+                    color: #eee;
+                    background-color: $reddark;
+                    border: none;
+                    border-radius: 10px;
+                    font-weight: map-get($font-weights, medium);
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .detail-body {
+        margin-top: 20px;
+        h2 {
+            color: $primary-text;
+            margin: 40px 0 15px 0;
+            font-size: 25px;
+        }
+        .description {
+            p {
+                font-size: 16px;
+                text-align: justify;
+                line-height: 20px;
+            }
+        }
+        .menus {
+            margin-top: 10px;
+            .menu-container {
+                margin-top: 10px;
+                display: grid;
+                grid-template-columns: auto;
+                gap: 20px;
+                font-size: 20px;
+                .food-list, .drink-list {
+                    margin-left: 20px;
+                }
+                ul {
+                    list-style: disc;
+                }
+                li {
+                    margin-top: 10px ;
+                }
+                h3 {
+                    color: $reddark;
+                }
+            }
+        }
+        #customerReview {
+            margin: 24px 0;
+            color: $primary-text;
+            
+            span {
+                color: $reddark;
+            }
+            .list-review {
+                margin-top: 10px;
+                display: grid;
+                grid-row-gap: 16px;
+                .item-review {
+                    margin-top: 24px;
+                    #date {
+                        color: $reddark;
+                        font-weight: map-get($font-weights, medium);
+                        margin-top: 5px;
+                    }
+                    #commentReview {
+                        font-size: 18px;
+                        word-wrap: break-word;
+                    }
+                    hr {
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}
